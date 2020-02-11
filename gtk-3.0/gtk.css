@@ -4020,28 +4020,32 @@ window.background:not(.csd) > window.background > menu > separator {
  * xfce4-panel *
  ***************/
 .xfce4-panel.background {
-  border: 2px solid #000000;
-  background-color: rgba(255, 255, 255, 0.6);
-  color: rgb(0, 0, 0);
+  background-color: rgba(10, 10, 10, 0.9);
+  color: rgb(172, 98, 98);
   font-weight: bolder;
 }
 
 .xfce4-panel.background button {
   min-height: 16px;
   min-width: 16px;
-  padding: 0;
-  border-radius: 5px;
-  color: black;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  background-color: #212121bd;
+  color: rgb(224, 224, 224);
+
+  border-width: 0;
 }
 
 .xfce4-panel.background button:checked {
   background-color: rgba(102, 85, 188, 0.8);
-  color: white;
+  color: rgb(230, 230, 230);
 }
 
 .xfce4-panel.background button:hover {
   background-color: rgba(102, 85, 188, 0.5);
-  color: white;
+  color: rgb(221, 221, 221);
 }
 
 .xfce4-panel.background .tasklist button:checked {
@@ -4062,6 +4066,12 @@ wnck-pager:selected {
 }
 
 
+#whiskermenu-window {
+  background-color: #E6E6E6;
+}
+#whiskermenu-window border {
+  border: #BBBBBB;
+}
 
 #whiskermenu-window button {
 	border: none;
