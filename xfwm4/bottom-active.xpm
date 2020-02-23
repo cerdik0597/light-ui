@@ -3,6 +3,6 @@ static char * bottom_active_xpm[] = {
 "2 2 3 1",
 " 	c None",
 ".	c #FFFFFF",
-"b  c #555555",
+"b  c #FFFFFF",
 "..",
 "bb"};
