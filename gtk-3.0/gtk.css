@@ -841,7 +841,7 @@ spinbutton:not(.vertical) button, notebook > header tab button.flat, button.side
 }
 
 .linked.vertical > button, .linked.vertical > spinbutton:not(.vertical), .linked.vertical > entry, .linked.vertical > combobox > box > button.combo {
-  border-radius: 20;
+  border-radius: 20px;
   -gtk-outline-radius: 20px;
 }
 
@@ -4032,7 +4032,7 @@ window.background:not(.csd) > window.background > menu > separator {
   padding-bottom: 2px;
   margin-left: 2px;
   margin-right: 2px;
-  background-color: #212121bd;
+  background-color: rgba(21, 21, 21, 0.85);
   color: rgb(224, 224, 224);
 
   border-width: 0;
