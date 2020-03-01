@@ -4123,6 +4123,10 @@ XfdesktopIconView.view .rubberband {
   background-color: transparent;
 }
 
+.thunar button {
+  border: 0;
+}
+
 .thunar statusbar {
   margin: 0 -10px;
   padding: 0 4px;
